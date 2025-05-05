@@ -7,6 +7,7 @@ phases:
     commands:
       - echo Installing Node dependencies...
       - npm install
+      - npm install react-scripts --save
   build:
     commands:
       - echo Building the app...

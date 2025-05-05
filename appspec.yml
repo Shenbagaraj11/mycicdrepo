@@ -5,6 +5,6 @@ files:
     destination: /var/www/html
 hooks:
   AfterInstall:
-    - location: scripts/start_server.sh
+    - location: https://github.com/Shenbagaraj11/mycicdrepo/script.sh
       timeout: 60
       runas: root
